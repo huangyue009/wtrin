@@ -70,11 +70,11 @@ $filters = array(
 
 
 ?>
-        <div class="lumise-bread">
-            <div class="container">
-                <h1><?php echo $lumise->lang('Lumise Shop'); ?></h1>
-            </div>
-        </div>
+<!--        <div class="lumise-bread">-->
+<!--            <div class="container">-->
+<!--                <h1>--><?php //echo $lumise->lang('Lumise Shop'); ?><!--</h1>-->
+<!--            </div>-->
+<!--        </div>-->
         <div class="lumise-products">
             <div class="lumise-list">
                 <div class="container">
