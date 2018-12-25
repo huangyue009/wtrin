@@ -169,7 +169,7 @@ class lumise_update extends lumise_lib {
 						$id = $this->main->generate_id(4);
 						$new_attributes[$id] = array(
 							"id" => $id,
-							"name" => "Product color",
+							"name" => $this->main->lang('Product color'),
 							"type" => "product_color",
 							"use_variation" => false,
 							"values" => implode("\n", $color)

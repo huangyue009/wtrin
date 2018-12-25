@@ -31,8 +31,8 @@ class lumise_connector {
 			"load_jquery" => true,
 			"root_path" => dirname(__FILE__).DS.'core'.DS,
             
-            "upload_path" => '/usr/local/nginx/html/wtrin/data/',
-			"upload_url" => 'http://39.108.96.190/wtrin/data/',
+            "upload_path" => '/Library/WebServer/Documents/wtrin/data/',
+			"upload_url" => 'http://127.0.0.1/wtrin/data/',
             "admin_assets_url" => $url.'core/admin/assets/',
             "admin_url" => $url.'admin.php?',
             
@@ -689,8 +689,8 @@ class lumise_connector {
 		if (!empty($connector_content)) {
 			
 			$connector_content = str_replace(array(
-				'/usr/local/nginx/html/wtrin/data/',
-				'http://39.108.96.190/wtrin/data/',
+				'/Library/WebServer/Documents/wtrin/data/',
+				'http://127.0.0.1/wtrin/data/',
 				'39.108.96.190',
                 'su',
                 'QWE123#@!',

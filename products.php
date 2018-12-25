@@ -42,7 +42,7 @@ $page_title = 'Products';
 include(theme('header.php'));
 
 $categories = $lumise->lib->get_categories('products');
-$cat_options = array('' => '-- Categories --');
+$cat_options = array('' => $lumise->lang('-- Categories --'));
 foreach($categories as $cat){
     $cat_options[$cat['id']] = $cat['name'];
 }
@@ -57,11 +57,11 @@ $filters = array(
     'order' => array(
         'type' => 'dropdown',
         'options' => array(
-            '' => '-- Sortby --',
-            'name_asc' => 'Name Asc',
-            'name_desc' => 'Name Desc',
-            'order_asc' => 'Order Asc',
-            'order_desc' => 'Order Desc',
+            '' => $lumise->lang('-- Sortby --'),
+            'name_asc' => $lumise->lang('Name Asc'),
+            'name_desc' => $lumise->lang('Name Desc'),
+            'order_asc' => $lumise->lang('Order Asc'),
+            'order_desc' => $lumise->lang('Order Desc'),
         ),
         'default' => '',
         'val' => $dt_order
