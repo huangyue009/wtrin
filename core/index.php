@@ -24,7 +24,7 @@ $lumise->do_action('editor-header');
 ?></head>
 <body>
 	<div class="wrapper">
-		<div id="LumiseDesign" data-site="https://lumise.com" data-processing="true" data-msg="<?php echo $lumise->lang('Initializing'); ?>..">
+		<div id="LumiseDesign" data-site="http://www.wtrin.com" data-processing="true" data-msg="<?php echo $lumise->lang('Initializing'); ?>..">
 			<div id="lumise-navigations" data-navigation="">
 				<?php $lumise->display('nav'); ?>
 			</div>

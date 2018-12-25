@@ -44,7 +44,7 @@
 <!--    </div>-->
     <div class="container">
         <div class="copyright">
-            <p>Copyright © 2017 <a href="http://www.wtrin.com/wtrin" target="_blank">www.wtrin.com</a> | 深圳万泉盈科技有限公司</p>
+            <p>Copyright © 2017 <a href="http://www.wtrin.com" target="_blank">www.wtrin.com</a> | 深圳万泉盈科技有限公司</p>
         </div>
     </div>
 </footer>

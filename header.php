@@ -5,7 +5,7 @@ include(theme('head.php'));
 <header class="header">
     <div class="container">
         <a href="<?php echo $lumise->cfg->url; ?>" class="logo">
-            <img src="http://www.wtrin.com/wtrin/data/wtrin_logo.png" alt="Lumise Product Designer online tool">
+            <img src="http://www.wtrin.com/data/wtrin_logo.png" alt="Lumise Product Designer online tool">
         </a>
         <div class="menu">
             <a href="#" class="btn_menu"><i class="fa fa-bars" aria-hidden="true"></i></a>
